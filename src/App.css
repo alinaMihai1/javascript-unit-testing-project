@@ -1,0 +1,17 @@
+.navBar > a {
+  padding: 0 4px;
+}
+.title {
+  color: #f6323e;
+  font-family: Comfortaa,Helvetica,sans-serif;
+}
+.app-container {
+  display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.app-container .app-container__heading{
+  margin-bottom: 0;
+  padding-left: 10px;
+}

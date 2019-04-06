@@ -1,0 +1,24 @@
+.category-navigation ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 0;
+  padding-left: 0px;
+}
+.category-navigation li {
+  padding: 10px;
+}
+
+.category-navigation li a {
+  text-decoration: none;
+  color: black;
+}
+
+.category-navigation li a:hover {
+  text-decoration: underline;
+}
+
+.category-navigation li.category-item--selected {
+  font-weight: bold;
+  text-decoration: underline;
+}

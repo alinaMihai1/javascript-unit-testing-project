@@ -1,0 +1,23 @@
+.product-item__header img{
+    height: 120px;
+    width: 120px;
+    margin-right: 10px;
+}
+.product-item {
+    margin: 10px;
+}
+
+.product-item:hover{
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.product-item--expanded .product-item__title{
+    font-weight: bold;
+}
+
+.product-item__description{
+    padding: 10px;
+    margin: 0px;
+    padding-top: 4px
+}
