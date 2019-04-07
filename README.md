@@ -27,7 +27,7 @@
 - /components contains the reusable components like ProductList, ProductItem, CategoryNavigation
 - /data contains mock data and interfaces for app entities like Product and Category
 - /redux holds the redux related logic like reducers, selectors, actions
-- apiUtils file holds the dispatching of actions (it was initially intended for doing http calls, but could not fix the same origin issue)
+- apiUtils file holds the dispatching of actions
 - Home.js is the default route, that holds the list of all products
 - .spec files contain unit tests
 
